@@ -1,0 +1,70 @@
+{
+  "name": "tz-command",
+  "version": "0.0.1",
+  "description": "CLI for send custom sms (twilio api) commands to avls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgaticaq/tz-command.git"
+  },
+  "keywords": [
+    "tz-avl",
+    "command"
+  ],
+  "author": "Leonardo Gatica <lgatica@protonmail.com> (https://about.me/lgatica)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgaticaq/tz-command/issues"
+  },
+  "homepage": "https://github.com/lgaticaq/tz-command#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "async": "^1.4.2",
+    "twilio": "^2.4.0",
+    "yargs": "^3.25.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chance": "^0.7.7",
+    "mocha": "^2.3.3"
+  },
+  "bin": {
+    "tz-command": "cli.js"
+  },
+  "preferGlobal": true,
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "mocha": true,
+      "es6": true
+    },
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "blockBindings": true,
+      "defaultParams": true,
+      "destructuring": true,
+      "forOf": true,
+      "modules": true,
+      "templateStrings": true,
+      "jsx": true,
+      "classes": true
+    },
+    "rules": {
+      "semi": [
+        2,
+        "never"
+      ],
+      "curly": [
+        2,
+        "multi-line"
+      ],
+      "no-underscore-dangle": 0
+    }
+  }
+}
