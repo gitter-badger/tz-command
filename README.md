@@ -1,5 +1,7 @@
 # tz-command
 
+[![Join the chat at https://gitter.im/lgaticaq/tz-command](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lgaticaq/tz-command?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![npm version](https://img.shields.io/npm/v/tz-command.svg?style=flat-square)](https://www.npmjs.com/package/tz-command)
 [![npm downloads](https://img.shields.io/npm/dm/tz-command.svg?style=flat-square)](https://www.npmjs.com/package/tz-command)
 [![Build Status](https://img.shields.io/travis/lgaticaq/tz-command.svg?style=flat-square)](https://travis-ci.org/lgaticaq/tz-command)
